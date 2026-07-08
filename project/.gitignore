@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+mlruns/
+mlartifacts/
+models/*.joblib
+models/*.png
+!models/.gitkeep
+data/v2/*
+data/v3/*
+!data/v2/.gitkeep
+!data/v3/.gitkeep
+.env
+.DS_Store
+*.egg-info/
