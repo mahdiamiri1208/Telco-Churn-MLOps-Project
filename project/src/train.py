@@ -96,7 +96,7 @@ def _model_registry(seed: int) -> dict:
         }
     if HAS_CATBOOST:
         registry["catboost"] = {
-            "estimator": CatBoostClassifier(random_state=seed, verbose=False),
+            "estimator": CatBoostClassifier(random_state=seed, verbose=False, allow_writing_files=False),
             "param_grid": {"depth": [4, 6], "iterations": [200, 400]},
         }
     return registry
