@@ -228,7 +228,7 @@ git init
 git add .
 git commit -m "Initial commit: MLOps pipeline structure"
 
-git remote add origin <YOUR_REPOSITORY_URL>
+git remote add origin mahdiamiri1208
 git push -u origin main
 ```
 
